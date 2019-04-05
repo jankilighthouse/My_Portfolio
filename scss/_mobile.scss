@@ -8,11 +8,22 @@
 @include mediaLg {
   .projects {
   grid-template-columns: repeat(3,1fr);
-}
 
+  .btn-light {
+    font-size: 10px;
+    }
+  }
 }
 //tablets and small laptops
 @include mediaMd {
+
+  .projects {
+  grid-template-columns: repeat(3,1fr);
+
+  .btn-light {
+    font-size: 10px;
+  }
+}
 main {
   align-items: center;
   text-align: center;
@@ -48,11 +59,10 @@ ul.menu-nav,div.menu-branding {
   }
   .about-info {
     grid-template-areas:
-    'bioimage'
+    'bio-image'
     'bio'
     'job1'
-    'job2'
-    'job3';
+    'job2';
 
     grid-template-columns: 1fr;
   }
