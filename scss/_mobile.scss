@@ -1,9 +1,14 @@
 //widescreens
 @include mediaXl {
-
+.projects {
+  grid-template-columns: repeat(3,1fr);
+}
 }
 //desktop &laptop
 @include mediaLg {
+  .projects {
+  grid-template-columns: repeat(3,1fr);
+}
 
 }
 //tablets and small laptops
@@ -51,6 +56,10 @@ ul.menu-nav,div.menu-branding {
 
     grid-template-columns: 1fr;
   }
+  .projects {
+  grid-template-columns: repeat(2,1fr);
+}
+
 }
 //smartphones
 @include mediaSm {
@@ -65,4 +74,7 @@ ul.menu-nav,div.menu-branding {
       font-size: 5rem;
     }
   }
+  .projects {
+  grid-template-columns: 1fr;
+}
 }
