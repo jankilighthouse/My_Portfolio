@@ -83,10 +83,11 @@ main {
   .bio-image {
 
   grid-area:bio-image;
-  width:250px;
+  object-fit: cover;
+  border-radius: 50%;
+  width: 250px;
   height: 250px;
   margin:auto;
-  border-radius: 50%;
   border: solid 3px $secondary-color;
 }
 .bio {
@@ -99,17 +100,14 @@ main {
     padding-top: 20px;
     padding-right: 30px;
     padding-left: 30px;
-    padding-bottom: 50px;
-/*    display: inline-grid;
-*/  }
+    padding-bottom: 25px;
+
+ }
 .job-1 {
   grid-area: job1;
   font-size: 1.3rem;
 
-
 }
-
-
 
 .job-2 {
   grid-area: job2;

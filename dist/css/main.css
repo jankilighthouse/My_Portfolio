@@ -53,9 +53,10 @@
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
+      object-fit: cover;
       width: 250px;
       height: 250px;
-      background: url("../img/just.jpg");
+      background: url("../img/janki.png");
       border-radius: 50%;
       border: solid 3px #eece1a; }
   .menu .nav-item {
@@ -166,10 +167,11 @@ main {
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bio-image;
+    object-fit: cover;
+    border-radius: 50%;
     width: 250px;
     height: 250px;
     margin: auto;
-    border-radius: 50%;
     border: solid 3px #eece1a; }
   .about-info .bio {
     grid-area: bio;
@@ -180,9 +182,7 @@ main {
     padding-top: 20px;
     padding-right: 30px;
     padding-left: 30px;
-    padding-bottom: 50px;
-    /*    display: inline-grid;
-*/ }
+    padding-bottom: 25px; }
   .about-info .job-1 {
     grid-area: job1;
     font-size: 1.3rem; }
@@ -292,7 +292,7 @@ main {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("../img/s1.jpg");
+      background: url("../img/janki_small.png");
       width: 150px;
       height: 150px; }
   .about-info {
