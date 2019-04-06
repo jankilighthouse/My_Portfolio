@@ -183,9 +183,17 @@ main {
     padding-right: 30px;
     padding-left: 30px;
     padding-bottom: 25px; }
+    .about-info .svg i:hover {
+      color: #eece1a; }
   .about-info .job-1 {
     grid-area: job1;
     font-size: 1.3rem; }
+    .about-info .job-1 .imgs {
+      padding-top: 20px;
+      width: 100px;
+      height: 100px; }
+      .about-info .job-1 .imgs:hover {
+        opacity: 0.5; }
   .about-info .job-2 {
     grid-area: job2;
     font-size: 1.3rem; }
@@ -196,6 +204,8 @@ main {
       padding-top: 20px;
       width: 75px;
       height: 95px; }
+      .about-info .job-3 .imgs:hover {
+        opacity: 0.5; }
   .about-info .job {
     background: #515151;
     padding: 0.5rem;

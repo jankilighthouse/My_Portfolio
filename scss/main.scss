@@ -102,10 +102,25 @@ main {
     padding-left: 30px;
     padding-bottom: 25px;
 
+    i {
+      &:hover {
+        color: $secondary-color;
+      }
+    }
+
  }
 .job-1 {
   grid-area: job1;
   font-size: 1.3rem;
+  .imgs {
+    padding-top: 20px;
+    width: 100px;
+    height: 100px;
+
+    &:hover {
+      opacity:0.5;
+      }
+  }
 
 }
 
@@ -120,6 +135,10 @@ main {
     padding-top: 20px;
     width: 75px;
     height: 95px;
+
+    &:hover {
+      opacity:0.5;
+      }
   }
 }
 .job {
