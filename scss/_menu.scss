@@ -36,7 +36,7 @@
 }
 //Menu overlay
 
- .menu {
+.menu {
   position: fixed;
   top:0;
   width: 100%;
@@ -76,13 +76,12 @@
     background: $primary-color;
     transform: translate3d(0,100%,0);
     @include easeOut;
+      &.show {
+        //slide in from top
+        transform: translate3d(0,0,0);
+      }
 
-    &.show {
-      //slide in from top
-      transform: translate3d(0,0,0);
-    }
-
-    .portrait {
+  .portrait {
       object-fit: cover;
       width:250px;
       height: 250px;
@@ -90,7 +89,6 @@
       border-radius: 50%;
       border: solid 3px $secondary-color;
     }
-
   }
   .nav-item {
     transform: translate3d(600px,0,0);
@@ -99,8 +97,7 @@
     &.show {
       //slide in from Right
       transform: translate3d(0,0,0);
-
-    }
+      }
     &.current > a {
       color: $secondary-color;
     }
@@ -120,7 +117,7 @@
       color:$secondary-color;
     }
   }
- }
+}
  //delay each navitem slide by some Time
  @for $x from 1 through 4 {
   .nav-item:nth-child(#{$x}) {

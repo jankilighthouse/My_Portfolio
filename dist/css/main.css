@@ -145,8 +145,6 @@ header {
 
 main {
   padding: 4rem;
-  /*  height: 100%;
-*/
   min-height: calc(100vh - 60px); }
   main .icons {
     margin-top: 1rem; }
@@ -205,7 +203,8 @@ main {
       width: 75px;
       height: 95px; }
       .about-info .job-3 .imgs:hover {
-        opacity: 0.5; }
+        opacity: 0.5;
+        color: red; }
   .about-info .job {
     background: #515151;
     padding: 0.5rem;

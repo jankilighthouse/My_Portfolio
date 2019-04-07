@@ -13,7 +13,6 @@
     font-size: 10px;
     }
   }
-
 }
 //tablets and small laptops
 @include mediaMd {
@@ -38,7 +37,6 @@ ul.menu-nav,div.menu-branding {
   float: none;
   width: 100%;
   min-height: 0;
-
   &.show {
     transform: translate3d(0,0,0);
     }
@@ -70,8 +68,7 @@ ul.menu-nav,div.menu-branding {
   }
   .projects {
   grid-template-columns: repeat(2,1fr);
-}
-
+  }
 }
 //smartphones
 @include mediaSm {
