@@ -68,7 +68,8 @@ ul.menu-nav,div.menu-branding {
   }
   .projects {
   grid-template-columns: repeat(2,1fr);
-  }
+}
+
 }
 //smartphones
 @include mediaSm {
@@ -85,5 +86,10 @@ ul.menu-nav,div.menu-branding {
   }
   .projects {
   grid-template-columns: 1fr;
+}
+.boxes {
+  div {
+    font-size: 1.1rem;
+  }
 }
 }
