@@ -83,10 +83,10 @@ main {
 }
 .bio {
   grid-area: bio;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 .svg {
-    font-size: 80px;
+    font-size: 60px;
     margin: auto;
     padding-top: 20px;
     padding-right: 30px;
@@ -102,15 +102,17 @@ main {
 .job-1 {
   grid-area: job1;
   font-size: 1.3rem;
-   .imgs {
-      padding-top: 20px;
-      width: 100px;
-      height: 100px;
+
+  .imgs {
+    padding-top: 20px;
+    width: 80px;
+    height: 80px;
 
     &:hover {
       opacity:0.5;
       }
   }
+
 }
 
 .job-2 {
@@ -122,8 +124,8 @@ main {
   font-size: 1.3rem;
   .imgs {
     padding-top: 20px;
-    width: 75px;
-    height: 95px;
+    width: 55px;
+    height: 75px;
 
     &:hover {
       opacity:0.5;
