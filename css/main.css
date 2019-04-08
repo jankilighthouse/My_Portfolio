@@ -173,9 +173,9 @@ main {
     border: solid 3px #eece1a; }
   .about-info .bio {
     grid-area: bio;
-    font-size: 1.5rem; }
+    font-size: 1.3rem; }
   .about-info .svg {
-    font-size: 80px;
+    font-size: 60px;
     margin: auto;
     padding-top: 20px;
     padding-right: 30px;
@@ -188,8 +188,8 @@ main {
     font-size: 1.3rem; }
     .about-info .job-1 .imgs {
       padding-top: 20px;
-      width: 100px;
-      height: 100px; }
+      width: 80px;
+      height: 80px; }
       .about-info .job-1 .imgs:hover {
         opacity: 0.5; }
   .about-info .job-2 {
@@ -200,8 +200,8 @@ main {
     font-size: 1.3rem; }
     .about-info .job-3 .imgs {
       padding-top: 20px;
-      width: 75px;
-      height: 95px; }
+      width: 55px;
+      height: 75px; }
       .about-info .job-3 .imgs:hover {
         opacity: 0.5;
         color: red; }
